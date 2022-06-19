@@ -12,6 +12,6 @@ module.exports = async (client, message, client2) => {
 ┊   » Command count : ${client.commands.size}`.yellow.dim);
     console.log(colors.green(`╰┈⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯┈╯\n`));
     console.log("Invite link with admin perms".bgYellow+" : "+colors.blue.underline("https://discord.com/api/oauth2/authorize?client_id="+client.user.id+"&permissions=8&scope=bot%20applications.commands"));
-    client.channels.cache.get("956007124243185684").send(`Bot logged in.`);
-    client.user.setActivity(`with nodes.`);
+    //client.channels.cache.get("956007124243185684").send(`Bot logged in.`);
+    client.user.setActivity(`Made by Astrexx.jar#4035`);
 }
