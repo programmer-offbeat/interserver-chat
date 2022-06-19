@@ -7,7 +7,7 @@ const client2 = new Client({
     intents: 32767
 })
 
-client2.login(config.token || process.env.BOT_TOKEN);
+client2.login(config.bot_token || process.env.BOT_TOKEN);
 client2.on('ready', async() => {
     client2.user.setActivity(`bot is starting...`);
 });
