@@ -15,7 +15,7 @@ module.exports = async (client, message) => {
     if(!allWebhooks.toString().includes(message.channel.id)) return;
 
     const theonewhosent = `${message.author.username}・${message.guild.name}`.substring(0, 32);
-     let content = message.content ;
+     let content = message.content || `\u200b`;
      if(message.attachments.size > 0 ) message.attachments.forEach(c => {
      content += `\n${c.proxyURL}`;
   }) 
