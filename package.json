@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "nyll"
+    "url": "https://github.com/programmer-offbeat/interserver-chat"
   },
   "keywords": [
     "webhooks",
