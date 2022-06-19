@@ -1,0 +1,29 @@
+{
+  "name": "interserver-chat",
+  "version": "1.0.0",
+  "description": "A bot that enables chatting from one server to another, easing making guild network members interact with each other without actually joining the servers !",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nyll"
+  },
+  "keywords": [
+    "webhooks",
+    "discord",
+    "network"
+  ],
+  "author": "Yash (Astrexx.jar#4035)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^13.8.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "pterodactyl.js": "^2.1.1"
+  }
+}
