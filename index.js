@@ -28,8 +28,8 @@ const client = new Client({
 });
 
 client.commands = new Collection();
-client.prefix = "!!";
-client.config = require(`${process.cwd()}/config.json`)
+client.config = require(`${process.cwd()}/config.json`);
+client.prefix = client.config.prefix;
 
 console.log("       ➥ Getting ready\n")
 client.on('ready', async() => {
