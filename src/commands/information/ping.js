@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js')
 module.exports = {
-  name: "p",
+  name: "ping",
     aliases: ["p"],
     description: "Show ping of the bot",
   
