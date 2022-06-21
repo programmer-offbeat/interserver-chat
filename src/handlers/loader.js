@@ -28,12 +28,12 @@ module.exports = async (client) => {
             const address = require(`${process.cwd()}/src/events/${file}`)
             let event = file.split(`.`)[0];
             client.on(event, address.bind(null, client));
-            console.log(colors.yellow.dim(`╰┈➤ ${event} has loaded.`));
+            console.log(colors.yellow(`╰┈➤ ${event} has loaded.`));
         });
         
         const main = require(`${process.cwd()}/src/events/MessageHandler.js`)
         client.on('messageCreate', main.bind(null, client));
-        console.log(`╰┈➤ MessageHandler has loaded.`.yellow.dim)
+        console.log(`╰┈➤ MessageHandler has loaded.`.yellow)
 
 
         console.log(`╰───── ⋅ ⋅ ────── ✩ ────── ⋅ ⋅ ───╯`.green);
