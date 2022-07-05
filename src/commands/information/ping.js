@@ -4,7 +4,7 @@ module.exports = {
     aliases: ["p"],
     description: "Show ping of the bot",
   
-  excute: async (client, message, args, prefix) => {
+  execute: async (client, message, args, prefix) => {
 let ping = client.ws.ping;
  let ws = await msg.createdAt.getTime() - message.createdAt.getTime()
  
