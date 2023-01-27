@@ -7,7 +7,7 @@ module.exports = {
         return message.reply({embeds: [new MessageEmbed()
             .setColor("FUCHSIA")
             .setTitle(`- Under developement`)
-            .setDescription(`This bot is under devlopemnt by Astrexx.jar#4035 !`)
+            .setDescription(`This bot is under devlopemnt by OfFbeat ̥ ˊˎ-#4035 !`)
         ]}).catch(() => null);
     },
 };
