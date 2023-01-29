@@ -2,7 +2,7 @@ const { readdirSync } = require(`fs`);
 const colors = require("colors");
 
 console.log(colors.cyan(`╭┈━━━━ Handlers starting ━━━━╮
-▸ MADE BY : Astrexx.jar#4035
+▸ MADE BY : OfFbeat ̥ ˊˎ-#4035
 ▸ BOT FILE LOCATION : ${process.cwd()}
 ╰────── ⋅ ⋅ ── ✩ ── ⋅ ⋅─────╯`));
 
